@@ -14,7 +14,7 @@ int main() {
   while (nT --) {
     getline(cin, str1, '\n');
     getline(cin, str2, '\n');
-		int len1 = str1.size(), len2 = str2.size();
+    int len1 = str1.size(), len2 = str2.size();
     for (int i = 0; i <= max(len1, len2); i++) T[i][0] = T[0][i] = i;
     for (int i = 1; i <= len1; i++) {
       for (int j = 1; j <= len2; j++) {
