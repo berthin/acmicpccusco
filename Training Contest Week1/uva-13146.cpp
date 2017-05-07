@@ -9,8 +9,8 @@ using namespace std;
 int main() {
   int T[105][105];
   int nT;
-	scanf("%d\n", &nT);
-	string str1, str2;
+  scanf("%d\n", &nT);
+  string str1, str2;
   while (nT --) {
     getline(cin, str1, '\n');
     getline(cin, str2, '\n');
